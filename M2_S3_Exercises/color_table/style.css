@@ -1,0 +1,51 @@
+
+table {
+    border-collapse: separate;
+    border-color: black;
+    border: 1px solid;
+    
+  }
+td{
+    border: 1px solid;
+}
+#red{
+    background-color: red;
+}
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+#gray{
+    background-color: gray;
+}
+#brown{
+    background-color: brown;
+}
+#blue{
+    background-color: blue;
+}
+#violet{
+    background-color: violet;
+}
+#pink{
+    background-color: pink;
+}
+#yellow{
+    background-color: yellow;
+}
+#turquoise{
+    background-color: turquoise;
+}
+#orange{
+    background-color: orange;
+}
+#purple{
+    background-color: purple;
+}
+#black{
+    color: white;
+    background-color: black;
+}
+

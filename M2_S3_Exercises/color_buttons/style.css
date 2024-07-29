@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+.btn{
+    padding: 8px 20px 8px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.primary {
+  background-color: #3498db;
+}
+.secondary {
+  background-color: #2ecc71;
+}
+.success{
+  background-color: #27ae60;
+}
+.danger {
+  background-color: #e74c3c;
+}
