@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar{
+    background-color: #0b6cfb;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar-brand{
+    color: #FFFF;
+}
+.nav-link, .active{
+    text-decoration: none;
+    color: #82c5ff
+}
