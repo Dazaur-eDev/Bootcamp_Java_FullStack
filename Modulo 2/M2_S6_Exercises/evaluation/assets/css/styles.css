@@ -13,3 +13,6 @@ body{
 .btncolor{
     background-color: #FFFFFF33;    
 }
+.btn, .form-select{
+    color:#1d5ab6;
+}

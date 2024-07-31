@@ -94,7 +94,7 @@
               </li>
             </ul>
 
-            <form class="d-flex">
+            <form>
               <button class="rounded-4 p-2 btncolor text-white" type="submit">
                 Iniciar Sesión
               </button>
@@ -105,7 +105,7 @@
     </header>
 
     <div class="container-fluid ccolor p-0">
-      <div class="row g-0 align-items-center">
+      <div class="row g-0 ms-3 align-items-center">
         <div class="col-md-8 text-center text-md-start p-3 p-md-4">
           <h3>¡Vacaciones de Verano!</h3>
           <p>Vuela por Chile y Sudamérica con hasta 40% de descuento</p>
@@ -116,18 +116,69 @@
           <a href="#">Compra aquí</a>
         </div>
         <div class="col-4 ms-auto rounded-4">
-            <img src="assets/img/polynesia.jpg" class="img-fluid w-100" alt="Playa">
+            <img src="assets/img/polynesia.jpg" class="img-fluid w-100 rounded-start-2" alt="Playa">
 
         </div>
       </div>
     </div>
 
-
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-primary">Left</button>
-      <button type="button" class="btn btn-primary">Middle</button>
-      <button type="button" class="btn btn-primary">Right</button>
+    <div class="container-xll m-4 shadow p-0 rounded-4">
+      <div class="row ">
+        <div class="col-6 btn-group m-3 role="group">
+          <button type="button" class="btn border border-dark-subtle ">Vuelos</button>
+          <button type="button" class="btn border border-dark-subtle">Paquetes</button>
+          <button type="button" class="btn border border-dark-subtle">Hoteles</button>
+          <button type="button" class="btn border border-dark-subtle">Autos</button>
+          <button type="button" class="btn border border-dark-subtle ">Seguros</button>
+          <button type="button" class="btn border border-dark-subtle ">Upgrade</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 btn-group m-3 role="group">
+          <select class="col form-select form-select-sm border-0" >
+            <option selected>Ida y Vuelta</option>
+            <option value="1">Solo ida</option>
+          </select>
+          <select class=" col form-select form-select-sm border-0" aria-label="Small select example">
+            <option selected>Economy</option>
+            <option value="1">Ejecutive</option>
+            <option value="2">Premium Economy</option>
+            <option value="3">Premium Ejecutive</option>
+          </select>
+          <select class="col form-select form-select-sm border-0" aria-label="Small select example">
+            <option selected>1 pasajero</option>
+            <option value="1">2 pasajeros</option>
+            <option value="2">3 pasajeros</option>
+            <option value="3">Mas pasajeros</option>
+          </select>
+        </div>
+      </div>
+      <div class="row p-md-3">
+        <div class="col ">
+          <input type="text" class="form-control" placeholder="Origen">
+        </div>
+        <div class="col ms-auto">
+          <input type="text" class="form-control" placeholder="Destino">
+        </div>
+        <div class="col ms-auto">
+          <input type="text" class="form-control" placeholder="Fecha Ida" disabled>
+        </div>
+        <div class="col ms-auto">
+          <input type="date" class="form-control" placeholder="Destino">
+        </div>
+        <div class="col ms-auto">
+          <input type="text" class="form-control" placeholder="Fecha Vuelta" disabled>
+        </div>
+        <div class="col ms-auto">
+          <input type="date" class="form-control" placeholder="Destino" disabled>
+        </div>
+        <div class="col ms-auto">
+          <button type="button" class="btn btn-danger text-white">Buscar</button>
+        </div>
+      </div>
+    
     </div>
+
 
 
 
