@@ -13,87 +13,96 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg ncolor">
-      <div class="container-fluid">
-        <a class="navbar-brand text-white titlefont" href="#">AeroVia Express</a>
-        <button
-          class="navbar-toggler text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon text-white"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md ncolor">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white titlefont" href="#"
+            >AeroVia Express</a
           >
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                
-              >
-                Ofertas y destinos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Mis viajes
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Ofertas y destinos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >Centro de Ayuda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >Estado de vuelo</a
-              >
-            </li>
-          </ul>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mis viajes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
 
-          <form class="d-flex">
-            <button class="rounded-4 p-2 btncolor text-white" type="submit">
-              Iniciar Sesión
-            </button>
-          </form>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Centro de Ayuda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Estado de vuelo</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <button class="rounded-4 p-2 btncolor text-white" type="submit">
+                Iniciar Sesión
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <div class="container-fluid ccolor">
       <div class="row">
@@ -106,9 +115,9 @@
           </p>
           <a href="#">Compra aquí</a>
         </div>
-        <div class="col-3 ms-auto rounded-4">
+        <div class="col-4 ms-auto rounded-4">
           <img
-            height=300px
+            height="200px"
             src="./assets/img/polynesia.jpg"
             alt="polynesia"
             class="rounded-4"
