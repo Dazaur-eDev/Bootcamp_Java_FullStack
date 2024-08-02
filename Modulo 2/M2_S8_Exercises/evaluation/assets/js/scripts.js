@@ -17,7 +17,7 @@ while(flag_process==0){
             usuario_id=-1
             break;
         } else if (nombre_acceso_key=="Salir"){
-            alert("Mucho Gracias por utilizar Banca en Línea");
+            alert("Muchas gracias por utilizar Banca en Línea");
             flag_process=1;
             usuario_id=-2
             break;
