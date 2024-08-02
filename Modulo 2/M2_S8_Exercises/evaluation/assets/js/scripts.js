@@ -1,5 +1,12 @@
-import {cliente} from './clientes.js';
-
+// import {cliente} from './clientes.js';
+class cliente{
+    constructor(idCliente, nombre, clave, saldo){
+        this.idCliente = idCliente;
+        this.nombre = nombre;
+        this.clave = clave;
+        this.saldo = saldo;
+    }
+}
 const clientes=[
     new cliente(1,'Patricio','1',100),
     new cliente(2,'Daza','12',200),
