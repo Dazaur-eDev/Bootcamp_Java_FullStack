@@ -33,6 +33,7 @@ while(flag_process==0){
     if(usuario_id == -1){
         alert("Su nombre de usuario no existe, por favor re intente con su nombre de usuario");
     }else{
+        console.log(clientes[usuario_id].clave)
         var clave_acceso_key = prompt("Bienvenido "+clientes[usuario_id].nombre+", por favor ingrese su clave")
         if (clientes[usuario_id].clave == clave_acceso_key){
             while(menu!=4){
