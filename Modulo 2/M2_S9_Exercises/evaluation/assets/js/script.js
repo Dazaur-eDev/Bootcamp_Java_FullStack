@@ -5,6 +5,15 @@ var tareas = [
 ]
 // Traer elementos
 var btn = document.querySelector("button");
+var tablaTareas_ = document.querySelector("#cuerpo-tabla");
+var nuevaTarea_ = document.querySelector("#nuevaTarea");
+
+// funciones
+
+function agregarTarea(){
+    text2.style.display = "block";
+}
+
 
 
 
