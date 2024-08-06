@@ -12,7 +12,7 @@ const clientes = [
     new Cliente(2, 'Daza', '12', 200),
     new Cliente(3, 'Urqueta', '123', 300)
 ];
-
+// Cambios realizados de prueba
 function solicitarNombreUsuario() {
     return prompt('Bienvenido a Banca en Línea.\nIngrese su nombre de usuario. Si desea salir escriba "Salir"');
 }
