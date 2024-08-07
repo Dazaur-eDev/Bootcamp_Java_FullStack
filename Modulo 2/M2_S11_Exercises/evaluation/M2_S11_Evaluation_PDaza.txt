@@ -1,4 +1,10 @@
+Una imagen de referencia más clara en el GitHub, dejo el link
 
+https://github.com/Dazaur-eDev/Bootcamp_Java_FullStack/tree/main/Modulo%202/M2_S11_Exercises/evaluation
+
+_________________________________________________________________
+Aquí abajo el código copy paste del git bash
+________________________________________________
 dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio
 $ mkdir M2_S11_evaluacion
 
