@@ -1,0 +1,156 @@
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio
+$ mkdir M2_S11_evaluacion
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio
+$ cd M2_S11_evaluacion
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion
+$ touch archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion
+$ ls
+archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion
+$ cd ..
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio
+$ cd M2_S11_evaluacion
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion
+$ git init
+Initialized empty Git repository in D:/Escritorio/M2_S11_evaluacion/.git/
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git add .
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git commit -m "primerCommit"
+[master (root-commit) 9c161f8] primerCommit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git log
+commit 9c161f83433662c9dbb889967f3ae784c722c795 (HEAD -> master)
+Author: Patricio Daza Urqueta <dazaur@gmail.com>
+Date:   Wed Aug 7 13:28:49 2024 -0400
+
+    primerCommit
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ cat archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ nano archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ cat archivo.txt
+Mi primera modificacion al archivo de texto
+
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git diff
+warning: in the working copy of 'archivo.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/archivo.txt b/archivo.txt
+index e69de29..d95a10d 100644
+--- a/archivo.txt
++++ b/archivo.txt
+@@ -0,0 +1,2 @@
++Mi primera modificacion al archivo de texto
++
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git add .
+warning: in the working copy of 'archivo.txt', LF will be replaced by CRLF the next time Git touches it
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git commit -m "segundoCommit"
+[master 67d2d3d] segundoCommit
+ 1 file changed, 2 insertions(+)
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git log
+commit 67d2d3d40041fdb52f337d21103015c25377bc16 (HEAD -> master)
+Author: Patricio Daza Urqueta <dazaur@gmail.com>
+Date:   Wed Aug 7 13:33:01 2024 -0400
+
+    segundoCommit
+
+commit 9c161f83433662c9dbb889967f3ae784c722c795
+Author: Patricio Daza Urqueta <dazaur@gmail.com>
+Date:   Wed Aug 7 13:28:49 2024 -0400
+
+    primerCommit
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ cat archivo.txt
+Mi primera modificacion al archivo de texto
+
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ nano archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ cat archivo.txt
+Mi primera modificacion al archivo de texto
+Mi segunda modificacion al archivo de texto
+
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git diff
+warning: in the working copy of 'archivo.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/archivo.txt b/archivo.txt
+index d95a10d..efe9673 100644
+--- a/archivo.txt
++++ b/archivo.txt
+@@ -1,2 +1,3 @@
+ Mi primera modificacion al archivo de texto
++Mi segunda modificacion al archivo de texto
+
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git restore --source 9c161f83433662c9dbb889967f3ae784c722c795 .
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git diff
+diff --git a/archivo.txt b/archivo.txt
+index d95a10d..e69de29 100644
+--- a/archivo.txt
++++ b/archivo.txt
+@@ -1,2 +0,0 @@
+-Mi primera modificacion al archivo de texto
+-
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ cat archivo.txt
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$ git log
+commit 67d2d3d40041fdb52f337d21103015c25377bc16 (HEAD -> master)
+Author: Patricio Daza Urqueta <dazaur@gmail.com>
+Date:   Wed Aug 7 13:33:01 2024 -0400
+
+    segundoCommit
+
+commit 9c161f83433662c9dbb889967f3ae784c722c795
+Author: Patricio Daza Urqueta <dazaur@gmail.com>
+Date:   Wed Aug 7 13:28:49 2024 -0400
+
+    primerCommit
+
+dazau@DESKTOP-EVG8NJP MINGW64 /d/Escritorio/M2_S11_evaluacion (master)
+$
