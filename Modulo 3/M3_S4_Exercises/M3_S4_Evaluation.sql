@@ -1,34 +1,34 @@
 CREATE TABLE "Empresa" (
-  "rut" VARCHAR2(10) PRIMARY KEY,
-  "nombre" VARCHAR2(120),
-  "direccion" VARCHAR2(120),
-  "telefono" VARCHAR2(15),
-  "correo" VARCHAR2(80),
-  "web" VARCHAR2(50)
+  "rut" VARCHAR(10) PRIMARY KEY,
+  "nombre" VARCHAR(120),
+  "direccion" VARCHAR(120),
+  "telefono" VARCHAR(15),
+  "correo" VARCHAR(80),
+  "web" VARCHAR(50)
 );
 
 CREATE TABLE "Herramienta" (
-  "id_herramienta" NUMBER(12) PRIMARY KEY,
+  "id_herramienta" INT PRIMARY KEY,
   "nombre" VARCHAR(120),
-  "precio_dia" NUMBER(12)
+  "precio_dia" INT
 );
 
 CREATE TABLE "Cliente" (
-  "rut" VARCHAR2(10) PRIMARY KEY,
-  "nombre" VARCHAR2(120),
-  "correo" VARCHAR2(80),
-  "direccion" VARCHAR2(120),
-  "celular" VARCHAR2(15)
+  "rut" VARCHAR(10) PRIMARY KEY,
+  "nombre" VARCHAR(120),
+  "correo" VARCHAR(80),
+  "direccion" VARCHAR(120),
+  "celular" VARCHAR(15)
 );
 
 CREATE TABLE "Arriendo" (
-  "folio" NUMBER(12) PRIMARY KEY,
+  "folio" INT PRIMARY KEY,
   "fecha" DATE,
-  "dias" NUMBER(5),
-  "valor_dia" NUMBER(12),
-  "garantia" VARCHAR2(30),
-  "herramienta_id_herramienta" NUMBER(12),
-  "cliente_rut" VARCHAR2(10)
+  "dias" INT
+  "valor_dia" INT,
+  "garantia" VARCHAR(30),
+  "herramienta_id_herramienta" INT,
+  "cliente_rut" VARCHAR(10)
 );
 
 ALTER TABLE "Arriendo" ADD FOREIGN KEY ("cliente_rut") REFERENCES "Cliente" ("rut");
