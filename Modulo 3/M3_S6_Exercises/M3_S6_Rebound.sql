@@ -2,7 +2,7 @@
 -- Proceso creacion de tablas y referencias
 
 CREATE TABLE "Empresa" (
-  "rut" VARCHAR(10) PRIMARY KEY,
+  "rut" VARCHAR(12) PRIMARY KEY,
   "nombre" VARCHAR(120),
   "direccion" VARCHAR(120),
   "telefono" VARCHAR(15),
@@ -11,7 +11,7 @@ CREATE TABLE "Empresa" (
 );
 
 CREATE TABLE "Clientes" (
-  "rut" VARCHAR(10),
+  "rut" VARCHAR(12),
   "nombre" VARCHAR(120),
   "correo" VARCHAR(80),
   "direccion" VARCHAR(120),
@@ -123,4 +123,4 @@ ORDER BY mes, nombre_marca;
 -- 4. Liste Rut y Nombre de las tablas cliente y empresa.
 SELECT rut, nombre FROM Clientes
 UNION
-SELECT rut, nombre FROM Empresa
+SELECT rut, nombre FROM Empresa;

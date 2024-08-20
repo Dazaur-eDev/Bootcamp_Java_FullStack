@@ -2,7 +2,7 @@
 -- Proceso creacion de tablas y referencias
 
 CREATE TABLE "Empresa" (
-  "rut" VARCHAR(10) PRIMARY KEY,
+  "rut" VARCHAR(12) PRIMARY KEY,
   "nombre" VARCHAR(120),
   "direccion" VARCHAR(120),
   "telefono" VARCHAR(15),
@@ -17,7 +17,7 @@ CREATE TABLE "Herramientas" (
 );
 
 CREATE TABLE "Clientes" (
-  "rut" VARCHAR(10) PRIMARY KEY,
+  "rut" VARCHAR(12) PRIMARY KEY,
   "nombre" VARCHAR(120),
   "correo" VARCHAR(80),
   "direccion" VARCHAR(120),
@@ -65,7 +65,7 @@ SELECT
   Clientes.nombre AS NombreCliente, 
   Arriendo.cliente_rut AS RutCliente
 FROM Arriendo;
-JOIN Clientes ON Clientes.rut = Arriendo.cliente_rut
+JOIN Clientes ON Clientes.rut = Arriendo.cliente_rut;
 -- 2. Listar los clientes sin arriendos.
 SELECT
   Clientes.nombre as NombreClientes,
@@ -76,7 +76,7 @@ WHERE Clientes.rut NOT IN(SELECT Arriendo.cliente_rut FROM Arriendo);
 -- 3. Liste RUT y Nombre de las tablas empresa y cliente.
 SELECT rut, nombre FROM Empresa
 UNION
-SELECT rut, nombre FROM Clientes
+SELECT rut, nombre FROM Clientes;
 -- 4. Liste la cantidad de arriendos por mes y precio total por mes.
 SELECT
   (EXTRACT(MONTH FROM Arriendo.fecha)) AS mes,
@@ -84,4 +84,4 @@ SELECT
   SUM(Arriendo.valor_dia*dia) AS PrecioTotalArriendoMes
 FROM Arriendo
 GROUP BY mes
-ORDER BY mes
+ORDER BY mes;
