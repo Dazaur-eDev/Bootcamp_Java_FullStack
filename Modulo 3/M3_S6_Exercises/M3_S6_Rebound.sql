@@ -1,5 +1,6 @@
 --____________________________________________________________________________
 -- Proceso creacion de tablas y referencias
+
 CREATE TABLE "Empresa" (
   "rut" VARCHAR(10) PRIMARY KEY,
   "nombre" VARCHAR(120),
@@ -9,7 +10,7 @@ CREATE TABLE "Empresa" (
   "web" VARCHAR(50)
 );
 
-CREATE TABLE "Cliente" (
+CREATE TABLE "Clientes" (
   "rut" VARCHAR(10),
   "nombre" VARCHAR(120),
   "correo" VARCHAR(80),
@@ -31,10 +32,9 @@ CREATE TABLE "Venta" (
   "cliente_rut" VARCHAR(10)
 );
 
-CREATE TABLE "Vehiculo" (
+CREATE TABLE "Vehiculos" (
   "id_vehiculo" INT PRIMARY KEY,
   "patente" VARCHAR(10),
-  "marca" VARCHAR(20),
   "modelo" VARCHAR(20),
   "color" VARCHAR(15),
   "precio" INT,
@@ -65,53 +65,62 @@ ALTER TABLE "Vehiculo" ADD FOREIGN KEY ("marca_id_marca") REFERENCES "Marca" ("i
 
 ALTER TABLE "Mantencion" ADD FOREIGN KEY ("venta_folio") REFERENCES "Venta" ("folio");
 -- ______________________________________________________________________________________________________________________________
+-- Proceso insercion de datos
 
--- • Inserte los datos de una empresa
 INSERT INTO Empresa VALUES ("17.656.624-8", "DzCompany", "Calama #1234", "+56912345678", "dazaur@gmail.com", "www.dz.com");
-INSERT INTO Empresa VALUES ("17.656.624-k", "DzCompany", "Calama #1234", "+56912345678", "dazaur@gmail.com", "www.dz.com");
--- • Eliminar el rut 17.656.624-k 
-DELETE FROM Empresa WHERE rut = "17.656.624-k";
--- • Inserte 2 tipos de vehículo
+
 INSERT INTO Tipo_Vehiculo VALUES (1, "Sedan");
 INSERT INTO Tipo_Vehiculo VALUES (2, "4x4");
 INSERT INTO Tipo_Vehiculo VALUES (3, "Suv");
 INSERT INTO Tipo_Vehiculo VALUES (4, "Sport");
--- • Modificar el nombre de una tabla
-ALTER TABLE Cliente RENAME TO Clientes;
--- • Inserte 3 clientes
+
 INSERT INTO Clientes VALUES ("8.222.134-4", "Ruth Urqueta", "ruthcheril1958@gmail.com", "Calama #1234", "+56912345678", 1);  
 INSERT INTO Clientes VALUES ("15.825.805-6", "Alejandro Daza", "alejandrodaza@gmail.com", "Calama #1234", "+56912345678", 1);
 INSERT INTO Clientes VALUES ("8.985.825-6", "Alejandro Daza", "asdam@gmail.com", "Calama #1234", "+56912345678", 0);
--- • Inserte 2 marcas
+
 INSERT INTO Marca VALUES (1, "Toyota");
 INSERT INTO Marca VALUES (2, "Kia");
 INSERT INTO Marca VALUES (3, "Nissan");
 INSERT INTO Marca VALUES (4, "Mazda");
--- • Inserte 5 vehículos
--- En el ejercicio, se entrega el modelo de relacion-entidad, sin embargo, en la tabla de Vehiculos, el atributo marca es redundante al tener una tabla con el id de cada Marca asociado a ella, por tanto, lo eliminaré
-ALTER TABLE Vehiculo RENAME TO Vehiculos;
-ALTER TABLE Vehiculos DROP COLUMN marca;
+
 INSERT INTO Vehiculos VALUES (1, "SF6635", "Tercel", "Verde Mica", 2000000, 5, 1, 1);
 INSERT INTO Vehiculos VALUES (2, "SF6636", "Rx-8", "Gris", 10000000, 5, 4, 4);
 INSERT INTO Vehiculos VALUES (3, "SF6637", "RIO", "Blanco", 3000000, 5, 2, 3);
 INSERT INTO Vehiculos VALUES (4, "SF6638", "V16", "Negro", 1000000, 5, 3, 1);
 INSERT INTO Vehiculos VALUES (5, "SF6639", "Hilux", "Rojo", 8000000, 5, 1, 2);
--- • Elimina el último cliente
---Opción básica y directa
-DELETE FROM Clientes WHERE rut = "8.985.825-6";
--- Una alternativa mejor para eliminar el ultimo registro de la tabla
-DELETE FROM Clientes WHERE rut = (
-  SELECT rut FROM Clientes LIMIT 1 OFFSET (-- obtengo el valor de la rut con el offset o salto obtenido del recuento total ejecutado en la linea siguiente
-    SELECT COUNT(rut) - 1 FROM Clientes); --contar el total de filas de la columna rut y restarle 1
--- • Inserte 1 venta para cada cliente
+
 INSERT INTO Venta VALUES (1, "2022-08-15", 2000000, 1, "8.222.134-4");
 INSERT INTO Venta VALUES (2, "2024-08-16", 10000000, 2, "15.825.805-6");
--- • Modifique el nombre del segundo cliente
-UPDATE Clientes SET nombre = "NuevoNombre" WHERE rut = "15.825.805-6";
--- • Liste todas las ventas
-SELECT * FROM Venta;
--- • Liste las ventas del primer cliente
-SELECT * FROM Venta WHERE cliente_rut = "1";
-SELECT * FROM Venta WHERE cliente_rut = (SELECT MIN(cliente_rut) FROM Venta);
--- • Obtenga la patente de todos los vehículos
-SELECT Patente FROM Vehiculos;
+INSERT INTO Venta VALUES (3, "2020-08-16", 8000000, 5, "8.222.134-4");
+INSERT INTO Venta VALUES (4, "2020-01-19", 1000000, 4, "8.985.825-6");
+-- ______________________________________________________________________________________________________________________________
+
+-- 1. Listar todos los vehículos que no han sido vendidos.
+SELECT * FROM Vehiculos WHERE id_vehiculo NOT IN (SELECT vehiculo_id_vehiculo FROM Venta);
+-- Otra forma de hacerlo
+SELECT *
+FROM Vehiculos
+LEFT JOIN Venta ON Vehiculos.id_vehiculo = Venta.vehiculo_id_vehiculo
+WHERE Venta.vehiculo_id_vehiculo IS NULL;
+-- 2. Listar todas las ventas de enero del 2020 con las columnas (Folio, FechaVenta, MontoVenta, NombreCliente, RutCliente, Patente, nombre_marca, Modelo).
+SELECT folio, fecha, monto, Clientes.nombre, rut, patente, Marca.nombre, modelo
+FROM Venta
+JOIN Vehiculos ON Vehiculos.id_vehiculo = Venta.vehiculo_id_vehiculo
+JOIN Clientes ON Clientes.rut =  Venta.cliente_rut
+JOIN Marca ON Vehiculos.marca_id_marca = Marca.id_marca
+WHERE Venta.fecha BETWEEN '2020-01-01' AND '2020-01-31';
+-- 3. Sume las ventas por mes y marca del año 2020.
+SELECT 
+    EXTRACT(MONTH FROM Venta.fecha) AS mes,
+    Marca.nombre AS nombre_marca,
+    SUM(Venta.monto) AS total_ventas
+FROM "Venta"
+JOIN "Vehiculos" ON Venta.vehiculo_id_vehiculo = Vehiculos.id_vehiculo
+JOIN "Marca" ON Vehiculos.marca_id_marca = Marca.id_marca
+WHERE EXTRACT(YEAR FROM Venta.fecha) = 2020
+GROUP BY mes, nombre_marca
+ORDER BY mes, nombre_marca;
+-- 4. Liste Rut y Nombre de las tablas cliente y empresa.
+SELECT rut, nombre FROM Clientes
+UNION
+SELECT rut, nombre FROM Empresa
