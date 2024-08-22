@@ -55,13 +55,13 @@ CREATE TABLE "Marca" (
   "nombre" VARCHAR(120)
 );
 
-ALTER TABLE "Venta" ADD FOREIGN KEY ("cliente_rut") REFERENCES "Cliente" ("rut");
+ALTER TABLE "Venta" ADD FOREIGN KEY ("cliente_rut") REFERENCES "Clientes" ("rut");
 
-ALTER TABLE "Vehiculo" ADD FOREIGN KEY ("id_vehiculo") REFERENCES "Venta" ("vehiculo_id_vehiculo");
+ALTER TABLE "Vehiculos" ADD FOREIGN KEY ("id_vehiculo") REFERENCES "Venta" ("vehiculo_id_vehiculo");
 
-ALTER TABLE "Vehiculo" ADD FOREIGN KEY ("tipo_vehiculo_id_tipo_vehiculo") REFERENCES "Tipo_Vehiculo" ("id_tipo_vahiculo");
+ALTER TABLE "Vehiculos" ADD FOREIGN KEY ("tipo_vehiculo_id_tipo_vehiculo") REFERENCES "Tipo_Vehiculo" ("id_tipo_vahiculo");
 
-ALTER TABLE "Vehiculo" ADD FOREIGN KEY ("marca_id_marca") REFERENCES "Marca" ("id_marca");
+ALTER TABLE "Vehiculos" ADD FOREIGN KEY ("marca_id_marca") REFERENCES "Marca" ("id_marca");
 
 ALTER TABLE "Mantencion" ADD FOREIGN KEY ("venta_folio") REFERENCES "Venta" ("folio");
 -- ______________________________________________________________________________________________________________________________

@@ -126,11 +126,31 @@ WHERE
       marca_id_marca
     FROM 
       Vehiculos 
-    GROUP BY marca_id_marca
-    ORDER BY COUNT(marca_id_marca) DESC);
+    GROUP BY Marca.marca_id_marca
+    ORDER BY COUNT(Marca.marca_id_marca) DESC;
+    LIMIT 1
+    )
+  LIMIT 5;
 
 -- 4. Clasificar los clientes según la siguiente tabla:
 --   Total de ventas anuales entre     Clasificacion
---   0 a 1.000.000                     Standard
---   1.000.001 a 3.000.000             Gold
---   3.000.001 o más            Premium
+--   0 a 1.000.000                      Standard
+--   1.000.001 a 3.000.000              Gold
+--   3.000.001 o más                    Premium
+SELECT 
+  Clientes.rut AS ClienteRut,
+  Clientes.nombre AS NombreCliente,
+  SUM(Venta.monto) AS MontoTotal,
+  CASE 
+    WHEN SUM(Venta.monto) BETWEEN 0 AND 1000000 THEN 'Standard'
+    WHEN SUM(Venta.monto) BETWEEN 1000001 AND 30000000 THEN 'Gold'
+    WHEN SUM(Venta.monto) > 30000000 THEN 'Premium'
+  END AS clasificacion
+FROM 
+  Clientes
+  JOIN Venta ON Clientes.rut = Venta.cliente_rut
+GROUP BY 
+  Clientes.rut,
+  Clientes.nombre
+ORDER BY 
+  clasificacion ASC;

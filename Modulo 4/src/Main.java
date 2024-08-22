@@ -9,7 +9,7 @@ public class Main {
         System.out.printf("Estamos en el año: %d %n", 2024);
         System.out.println("Estamos en el año: " + 2024);
         System.out.println("Estamos en el año: " + añoActual);
-        LocalDate FechaActual = LocalDate.now();
+        LocalDate FechaActual = LocalDate.now()
         System.out.println(FechaActual);
         System.out.printf("Estamos en el año: %s %n", FechaActual);
     }
