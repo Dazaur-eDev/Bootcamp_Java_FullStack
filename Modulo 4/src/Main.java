@@ -11,7 +11,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         S1_Main S1_Main = new S1_Main();
         System.out.println("Escriba el numero de la sesion que desea verificar:");
-        System.out.println("Sesiones disponibles para revisar: 1");
+        System.out.println("1.- ");
         int sesion = sc.nextInt();
         switch (sesion) {
             case 1:
