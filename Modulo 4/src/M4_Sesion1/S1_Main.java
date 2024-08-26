@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class S1_Main {
 
-    public void S1() {
+    public static void S1() {
 
         System.out.println("Seleccione ejercicio que desea verificar:");
         System.out.println("1 - Rebound (Área y perímetro de un rectángulo)");
