@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 
 public class S1_Evaluation {
+//________________________________________________________________________________________Ejercicio 1
     public void listaCompra() {
+
         Scanner sc = new Scanner(System.in);
         int precioCocina = 299990;
         int precioLavadora = 234540;
@@ -28,7 +30,7 @@ public class S1_Evaluation {
         System.out.printf("El total más IVA es: $ %.2f %n", totalCompraPesosMasIva);
         System.out.printf("El total de su compra en dólares es de: %.2f %n", totalCompraDolares);
     }
-
+//________________________________________________________________________________________Ejercicio 2
     public void calcularIMC(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el peso para calcular el IMC en kg:");
