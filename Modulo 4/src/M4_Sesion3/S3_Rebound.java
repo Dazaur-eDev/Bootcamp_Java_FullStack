@@ -6,13 +6,13 @@ public class S3_Rebound {
 
     int numero;
 
-    public void obtenerNumero() {
+    private void obtenerNumero() {
         System.out.println("Por favor ingrese un número");
         Scanner sc = new Scanner(System.in);
         numero = sc.nextInt();
     }
 
-    public void primerPatron() {
+    private void primerPatron() {
         String patronPar = ".";
         String patronImpar = "*";
         for (int i = 1; i <= numero; i++) {
@@ -25,7 +25,7 @@ public class S3_Rebound {
         }
     }
 
-    public void segundoPatron() {
+    private void segundoPatron() {
         String segundoPatron = "*";
         for (int fila = 1; fila <= numero; fila++) {
             for (int columna = 1; columna <= numero; columna++) {
