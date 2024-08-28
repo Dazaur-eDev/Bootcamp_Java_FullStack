@@ -18,7 +18,7 @@ public class S3_Evaluation {
         }
     }
 
-    public void validadorNumero(int numeroIngresado) {
+    private void validadorNumero(int numeroIngresado) {
         if (numeroIngresado < 1 || numeroIngresado > 100) {
             System.out.println("-----------------Error");
             System.out.println("Numero incorrecto");
@@ -28,7 +28,7 @@ public class S3_Evaluation {
         }
     }
 
-    public void totalizador(int numeroIngresado) {
+    private void totalizador(int numeroIngresado) {
         float contadorTotalPares;
         float contadorTotalImpares;
         if (numeroIngresado % 2 == 0) {
@@ -39,7 +39,7 @@ public class S3_Evaluation {
             contadorTotalImpares = (numeroIngresado / 2) + 1;
         }
         System.out.printf("El total de números pares es de: %.0f %n", contadorTotalPares);
-        System.out.printf("El total de números impares es de: %.0f ", contadorTotalImpares);
+        System.out.printf("El total de números impares es de: %.0f %n", contadorTotalImpares);
     }
 
     //____________________________________________________________________________________________ Ejercicio 2
@@ -62,7 +62,7 @@ public class S3_Evaluation {
         System.out.println("El total de números impares introducidos es de: " + contadorDeImpares);
     }
 
-    public void ingresoNumeros() {
+    private void ingresoNumeros() {
         for (int i = 0; i < 10; i++) {
             System.out.print("Introduce el número " + (i + 1) + ": ");
             Scanner sc = new Scanner(System.in);
@@ -70,7 +70,7 @@ public class S3_Evaluation {
         }
     }
 
-    public void contadorNumeros() {
+    private void contadorNumeros() {
         for (int i = 0; i < numerosIngresados.length; i++) {
             if (numerosIngresados[i] == 0) {
                 contadorDeCeros += 1;
