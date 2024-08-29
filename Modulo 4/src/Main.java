@@ -3,6 +3,7 @@ import M4_Sesion2.S2_Main;
 import M4_Sesion3.S3_Main;
 import M4_Sesion4.S4_Main;
 import M4_Sesion5.S5_Main;
+import M4_Sesion6.S6_Main;
 
 import java.util.Scanner;
 
@@ -21,7 +22,7 @@ public class Main {
                 System.out.println((i + 1) + " .- Sesion " + (i + 1));
             }
             int sesion = sc.nextInt();
-            if (sesion <= 5) {
+            if (sesion <= 6) {
                 switch (sesion) {
                     case 0:
                         flag = 1;
@@ -42,7 +43,7 @@ public class Main {
                         S5_Main.S5();
                         break;
                     case 6:
-                        //S6_Main.S6();
+                        S6_Main.S6();
                         break;
                 }
             } else {
