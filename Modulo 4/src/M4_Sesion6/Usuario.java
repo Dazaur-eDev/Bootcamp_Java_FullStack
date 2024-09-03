@@ -12,7 +12,7 @@ public class Usuario {
         this.contrasena = contrasena;
         NombreCompleto = nombreCompleto;
         this.fechaNacimiento = fechaNacimiento;
-        contador ++;
+        contador++;
     }
 
     public static int getContador() {

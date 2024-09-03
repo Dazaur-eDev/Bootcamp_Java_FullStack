@@ -1,5 +1,4 @@
 package M4_Sesion1;
-
 import java.util.Scanner;
 
 public class S1_Main {

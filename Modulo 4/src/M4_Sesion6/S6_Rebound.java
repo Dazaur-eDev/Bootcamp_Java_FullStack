@@ -107,7 +107,7 @@ public class S6_Rebound {
                         mensajeAleatorio();
                         break;
                     case 5:
-                        System.out.println("Hasta pronto Alex15");
+                        System.out.println("Hasta pronto");
                         flag = true;
                         break;
                 }

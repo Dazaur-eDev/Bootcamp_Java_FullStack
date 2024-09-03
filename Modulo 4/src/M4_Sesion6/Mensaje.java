@@ -6,7 +6,7 @@ public class Mensaje {
 
     public Mensaje(String mensaje) {
         this.mensaje = mensaje;
-        contador ++;
+        contador++;
     }
 
     public void setMensaje(String mensaje) {

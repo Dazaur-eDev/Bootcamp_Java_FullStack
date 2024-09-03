@@ -7,7 +7,7 @@ public class S6_Main {
     public static void S6() {
         System.out.println("Seleccione ejercicio que desea verificar:");
         System.out.println("1 - Rebound (App usuario: daza pass:1234)");
-        System.out.println("2 - Evaluation ()");
+        System.out.println("2 - Evaluation (App Usuarios, Restricción edad y contraseña)");
 
         Scanner sc = new Scanner(System.in);
         int optionS6 = sc.nextInt();
