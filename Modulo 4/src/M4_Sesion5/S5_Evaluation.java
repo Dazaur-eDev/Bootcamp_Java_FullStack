@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class S5_Evaluation {
     Producto[] tablaProductos = new Producto[7];
     int totalProductos;
+
     public void appProductos() {
         boolean flag = false;
         System.out.println("Bienvenido a la App de Productos");
@@ -53,7 +54,7 @@ public class S5_Evaluation {
         totalProductos = 0;
         for (int i = 0; i < 7; i++) {
             if (tablaProductos[i] != null) {
-                System.out.println( (i+1) + " .- Producto: " + tablaProductos[i].getNombre() + " - Valor: " + tablaProductos[i].getValor() + " - Descripcion: " + tablaProductos[i].getDescripcion());
+                System.out.println((i + 1) + " .- Producto: " + tablaProductos[i].getNombre() + " - Valor: " + tablaProductos[i].getValor() + " - Descripcion: " + tablaProductos[i].getDescripcion());
                 totalProductos += 1;
             }
         }
@@ -69,7 +70,7 @@ public class S5_Evaluation {
         int nuevoValor = valor.nextInt();
         System.out.println("Ingrese el descripcion del producto:");
         String nuevaDescripcion = descripcion.nextLine();
-        System.out.println("El producto ha sido ingresado como Producto " + (totalProductos+1));
+        System.out.println("El producto ha sido ingresado como Producto " + (totalProductos + 1));
         tablaProductos[totalProductos] = new Producto(nuevoProducto, nuevoValor, nuevaDescripcion);
     }
 
@@ -84,28 +85,28 @@ public class S5_Evaluation {
         System.out.println("3.- Descripción: " + tablaProductos[indiceProductoSeleccionado - 1].getDescripcion());
         Scanner sc2 = new Scanner(System.in);
         int atributoModificar = sc2.nextInt();
-        switch (atributoModificar){
+        switch (atributoModificar) {
             case 1:
                 System.out.println("Escriba el nuevo nombre: ");
                 Scanner nombre = new Scanner(System.in);
                 String nuevoNombre = nombre.nextLine();
-                tablaProductos[indiceProductoSeleccionado-1].setNombre(nuevoNombre);
+                tablaProductos[indiceProductoSeleccionado - 1].setNombre(nuevoNombre);
                 break;
             case 2:
                 System.out.println("Escriba el nuevo valor: ");
                 Scanner valor = new Scanner(System.in);
                 int nuevoValor = valor.nextInt();
-                tablaProductos[indiceProductoSeleccionado-1].setValor(nuevoValor);
+                tablaProductos[indiceProductoSeleccionado - 1].setValor(nuevoValor);
                 break;
             case 3:
                 System.out.println("Escriba la nueva descripcion: ");
                 Scanner descripcion = new Scanner(System.in);
                 String nuevaDescripcion = descripcion.nextLine();
-                tablaProductos[indiceProductoSeleccionado-1].setDescripcion(nuevaDescripcion);
+                tablaProductos[indiceProductoSeleccionado - 1].setDescripcion(nuevaDescripcion);
                 break;
         }
         System.out.println("La modificación se ha efectuado, los cambios han quedado registrados de la siguiente forma:");
-        System.out.println( (indiceProductoSeleccionado-1) + " .- Producto: " + tablaProductos[indiceProductoSeleccionado-1].getNombre() + " - Valor: " + tablaProductos[indiceProductoSeleccionado-1].getValor() + " - Descripcion: " + tablaProductos[indiceProductoSeleccionado-1].getDescripcion());
+        System.out.println((indiceProductoSeleccionado - 1) + " .- Producto: " + tablaProductos[indiceProductoSeleccionado - 1].getNombre() + " - Valor: " + tablaProductos[indiceProductoSeleccionado - 1].getValor() + " - Descripcion: " + tablaProductos[indiceProductoSeleccionado - 1].getDescripcion());
     }
 
 //    Necesito analizar el tema del indice al borrar un valor que no es el ultimo esto genera un desplazamiento del indice

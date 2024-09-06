@@ -20,6 +20,8 @@ public class S7_Main {
                 S7_Evaluation S7_Evaluation = new S7_Evaluation();
                 S7_Evaluation.comercio();
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

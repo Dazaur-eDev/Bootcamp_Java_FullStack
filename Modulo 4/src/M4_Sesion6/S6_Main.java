@@ -20,6 +20,8 @@ public class S6_Main {
                 S6_Evaluation S6_Evaluation = new S6_Evaluation();
                 S6_Evaluation.app();
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

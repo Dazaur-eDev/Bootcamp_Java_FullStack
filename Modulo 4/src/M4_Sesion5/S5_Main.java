@@ -21,6 +21,8 @@ public class S5_Main {
                 S5_Evaluation S5_Evaluation = new S5_Evaluation();
                 S5_Evaluation.appProductos();
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

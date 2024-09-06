@@ -21,6 +21,8 @@ public class S4_Main {
                 S4_Evaluation S4_Evaluation = new S4_Evaluation();
                 S4_Evaluation.mainAuto();
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

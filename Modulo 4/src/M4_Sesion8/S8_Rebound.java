@@ -3,29 +3,33 @@ package M4_Sesion8;
 import java.util.ArrayList;
 
 public class S8_Rebound {
-    public void listaCurso() {
+    public void listadoCurso() {
 
-        Profesor profesor = new Profesor("Andres", 0, "Informática");
-        Estudiante estudiante1 = new Estudiante("Patricio", 0, profesor, "estudiar");
-        Estudiante estudiante2 = new Estudiante("Daniel", 1, profesor, "jugar a la pelota");
-        Estudiante estudiante3 = new Estudiante("Daza", 2, profesor, "programar en java");
-        Estudiante estudiante4 = new Estudiante("Urqueta", 3, profesor, "ver peliculas y series");
-        Estudiante estudiante5 = new Estudiante("Patricio", 4, profesor, "escuchar LP");
+        ArrayList<Profesor> profesores = new ArrayList<>();
+        profesores.add(new Profesor("ANDRES", 0,"INFORMATICA"));
+        profesores.add(new Profesor("LUIS", 1,"INFORMATICA"));
 
-        ArrayList<Object> listaCurso = new ArrayList<>();
-        listaCurso.add(profesor);
-        listaCurso.add(estudiante1);
-        listaCurso.add(estudiante2);
-        listaCurso.add(estudiante3);
-        listaCurso.add(estudiante4);
-        listaCurso.add(estudiante5);
+        ArrayList<Estudiante> estudiantes = new ArrayList<>();
+        estudiantes.add(new Estudiante("PATRICIO", 0, profesores.get(0), "ESTUDIAR"));
+        estudiantes.add(new Estudiante("DANIEL", 1, null, "JUGAR A LA PELOTA"));
 
+
+        //asignar un profesor a un estudiante después de la creación (solo para practicar el uso de getter y setters profe)
+        estudiantes.get(1).setProfesor(profesores.get(1));
+
+        //recorrer los arreglos de profesores y estudiantes
         System.out.println("El curso esta compuesto por:");
-        for (Object participanteCurso : listaCurso) {
-            System.out.println(participanteCurso.toString());
+        for (Profesor listadoProfesores : profesores) {
+            System.out.println(listadoProfesores.toString());
         }
+        for (Estudiante estudiante : estudiantes) {
+            System.out.println(estudiante.toString());
+        }
+        //ejecutar métodos de acuerdo a distintas instancias de clase
+        profesores.get(0).leer();
+        profesores.get(1).realizarEjercicio();
+        estudiantes.get(1).realizarEjercicio();
+        estudiantes.get(0).leer();
 
-        profesor.leer();
-        estudiante1.realizarEjercicio();
     }
 }

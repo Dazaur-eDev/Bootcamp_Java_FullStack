@@ -35,12 +35,10 @@ public class Profesor implements Actividades {
         this.especialidad = especialidad;
     }
 
-    @Override
     public void leer() {
         System.out.println("El profesor " + nombre + " está leyendo.");
     }
 
-    @Override
     public void realizarEjercicio() {
         System.out.println("El profesor " + nombre + " está realizando los ejercicios.");
     }

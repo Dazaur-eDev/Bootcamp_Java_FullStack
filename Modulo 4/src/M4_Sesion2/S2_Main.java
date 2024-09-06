@@ -16,7 +16,6 @@ public class S2_Main {
         switch (optionS2R) {
             case 1:
                 S2_Rebound S2_Rebound = new S2_Rebound();
-
                 S2_Rebound.calculoTipoDePago();
                 break;
             case 2:
@@ -25,7 +24,6 @@ public class S2_Main {
                 System.out.println("Seleccione la opcion que desea:");
                 System.out.println("1 - Temperatura");
                 System.out.println("2 - Cajero");
-
                 int optionS2E = sc.nextInt();
                 switch (optionS2E) {
                     case 1:
@@ -34,8 +32,12 @@ public class S2_Main {
                     case 2:
                         S2_Evaluation.cajero();
                         break;
+                    default:
+                        System.out.println("Opción no válida");
                 }
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

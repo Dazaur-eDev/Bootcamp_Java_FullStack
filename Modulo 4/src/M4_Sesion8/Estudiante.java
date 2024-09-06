@@ -45,12 +45,10 @@ public class Estudiante implements Actividades {
         this.hobbie = hobbie;
     }
 
-    @Override
     public void leer() {
         System.out.println("El estudiante " + nombre + " está leyendo.");
     }
 
-    @Override
     public void realizarEjercicio() {
         System.out.println("El estudiante " + nombre + " está realizando los ejercicios.");
     }

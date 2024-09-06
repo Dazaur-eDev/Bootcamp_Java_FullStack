@@ -33,6 +33,8 @@ public class S3_Main {
                         break;
                 }
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }

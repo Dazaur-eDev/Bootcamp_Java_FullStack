@@ -29,6 +29,8 @@ public class S1_Main {
                     case 2:
                         S1_Rebound.calcularPerimetro();
                         break;
+                    default:
+                        System.out.println("Opción no válida");
                 }
                 break;
 
@@ -47,8 +49,12 @@ public class S1_Main {
                     case 2:
                         S1_Evaluation.calcularIMC();
                         break;
+                    default:
+                        System.out.println("Opción no válida");
                 }
                 break;
+            default:
+                System.out.println("Opción no válida");
         }
     }
 }
