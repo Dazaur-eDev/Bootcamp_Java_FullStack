@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="M4_Sesion15_API_base" />
         <module name="M4_Sesion15_API_base (1)" />
+        <module name="M4_Sesion15_API_base (2)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="M4_Sesion15_API_base" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
