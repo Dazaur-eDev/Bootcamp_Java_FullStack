@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe6c425-d9cd-41c5-ae80-dfbb457ce8d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4_Sesions/src/M4_Sesion17/Modulos_R/Alas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4_Sesions/src/M4_Sesion17/Modulos_R/Cabina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4_Sesions/src/M4_Sesion17/Modulos_R/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4_Sesions/src/M4_Sesion17/Modulos_R/PistaAeropuerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4_Sesions/src/M4_Sesion17/Modulos_R/Rueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Bootcamp VScode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Bootcamp VScode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion1/S1_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion1/S1_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion1/S1_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion2/S2_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion2/S2_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion2/S2_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion3/S3_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion3/S3_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion3/S3_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion4/Auto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion4/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion4/S4_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion4/S4_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion4/S4_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion5/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion5/S5_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion5/S5_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion5/S5_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/EvaluationS6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/Mensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/ReboundS6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/S6_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/S6_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/S6_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion6/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Auto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Bicicleta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Cocina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/FuncionesCocina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/FuncionesProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/FuncionesVehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Refrigerador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/S7_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/S7_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/S7_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion7/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Actividades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Carrito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/CarritoCompras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Profesor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/S8_Evaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/S8_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/S8_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Vegetales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Vendedor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Venta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion8/Vestuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion9/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion9/Profesor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion9/S9_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M4_Sesion9/S9_Rebound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lyltdD2ygl8DckxcxikYouD8ON" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe6c425-d9cd-41c5-ae80-dfbb457ce8d4" name="Changes" comment="" />
+      <created>1726160415066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726160415066</updated>
+      <workItem from="1726160416824" duration="2448000" />
+      <workItem from="1726168424485" duration="2275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
