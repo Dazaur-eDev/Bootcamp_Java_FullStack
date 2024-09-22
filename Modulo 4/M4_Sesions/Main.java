@@ -9,6 +9,7 @@ import M4_Sesion8.S8_Main;
 import M4_Sesion9.S9_Main;
 import M4_Sesion10.S10_Main;
 import M4_Sesion11.S11_Main;
+import M4_Sesion12.S12_Main;
 import M4_Sesion17.S17_Main;
 
 import java.util.Scanner;
@@ -17,14 +18,12 @@ public class Main {
     static int option;
     public static void main(String[] args) {
 
-        int flag = 0; //Bandera de salida del while principal
-//        Scanner sc = new Scanner(System.in);
+        int flag = 0; //Bandera de salida del while principal11
         System.out.println("Bienvenido a los ejercicios del Bootcamp de Java");
         while (flag != 1) {
             System.out.println("Escriba el numero de la sesión que desea evaluar:");
             System.out.println("0 .- Salir");
             System.out.println("1 a 19 - N° Sesion");
-//            int sesion = sc.nextInt();
             dataInput();
             switch (option) {
                 case 0:
