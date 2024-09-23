@@ -14,7 +14,6 @@ public class S11_Main {
     public static List<Movies> moviesList = new ArrayList<>();
 
     public static void S11() {
-        Owner.getOwner("Patricio Daza");
 
         moviesList.add(new Movies("Interestellar", 2014, false));
         moviesList.add(new Movies("Interestellar 2", 2024, false));
@@ -54,6 +53,9 @@ public class S11_Main {
                 case 8:
                     System.out.println("Thanks for using the program, support me with a ristretto coffe");
                     break;
+                case 9:
+                     createOwner();
+                     break;
                 default:
                     System.out.println("Invalid option");
             }
@@ -71,6 +73,7 @@ public class S11_Main {
         System.out.println("6. Rent a movie");
         System.out.println("7. Return a movie");
         System.out.println("8. Exit the program");
+        System.out.println("9. Create owner of the store");
         System.out.println("_____________________________________");
     }
 
@@ -313,5 +316,10 @@ public class S11_Main {
         } else {
             System.out.println("It is not possible to process this solicitude");
         }
+    }
+
+    public static void createOwner() {
+        System.out.println("Enter the name of the Owner of the store");
+        Owner.getOwner(ReadConsole.dataInputString());
     }
 }

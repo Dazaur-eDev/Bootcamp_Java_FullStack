@@ -18,7 +18,7 @@ public class Main {
     static int option;
     public static void main(String[] args) {
 
-        int flag = 0; //Bandera de salida del while principal11
+        int flag = 0; //Bandera de salida del while principal
         System.out.println("Bienvenido a los ejercicios del Bootcamp de Java");
         while (flag != 1) {
             System.out.println("Escriba el numero de la sesión que desea evaluar:");
@@ -61,6 +61,9 @@ public class Main {
                     break;
                 case 11:
                     S11_Main.S11();
+                    break;
+                case 12:
+                    S12_Main.S12();
                     break;
                 case 15:
                     System.out.println("Realizado en proyecto con arquitectura Maven, se encuentra en carpeta: 'Modulo 4/M4_Sesion15_Rebound'.");
