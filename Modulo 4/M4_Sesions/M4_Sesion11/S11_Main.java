@@ -54,8 +54,8 @@ public class S11_Main {
                     System.out.println("Thanks for using the program, support me with a ristretto coffe");
                     break;
                 case 9:
-                     createOwner();
-                     break;
+                    createOwner();
+                    break;
                 default:
                     System.out.println("Invalid option");
             }
@@ -265,17 +265,17 @@ public class S11_Main {
                 int paySelected = ReadConsole.dataInputInt();
                 switch (paySelected) {
                     case 1:
-                        cash.payment();
+                        System.out.println(cash.payment());
                         moviesList.get(index).setRented(true);
                         System.out.println("Rented: " + moviesList.get(index).getTitle());
                         break;
                     case 2:
-                        credit.payment();
+                        System.out.println(credit.payment());
                         moviesList.get(index).setRented(true);
                         System.out.println("Rented: " + moviesList.get(index).getTitle());
                         break;
                     case 3:
-                        debit.payment();
+                        System.out.println(debit.payment());
                         moviesList.get(index).setRented(true);
                         System.out.println("Rented: " + moviesList.get(index).getTitle());
                         break;

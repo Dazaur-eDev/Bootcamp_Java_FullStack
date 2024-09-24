@@ -1,0 +1,5 @@
+
+You have bought the following items
+1 - Laptop $ 1000.0
+2 - Laptop $ 1000.0
+Total amount paid was : $2000.0
