@@ -1,4 +1,4 @@
-package M4_Sesion12.utils;
+package com.Daza.utils;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -48,7 +48,7 @@ public class WriteFile {
                     bw.write(atribute.replace("=", ": "));
                 }
             }
-            System.out.println("File wrote successfully");
+            //System.out.println("File wrote successfully");
         } catch (IOException e) {
             System.out.println("Error trying to write the file " + e.getMessage());
         }

@@ -1,6 +1,6 @@
 package M4_Sesion12;
 
-import M4_Sesion11.utils.ReadConsole;
+import M4_Sesion12.utils.ReadConsole;
 import M4_Sesion12.utils.ReadFile;
 import M4_Sesion12.utils.WriteFile;
 
@@ -37,7 +37,7 @@ public class S12_Rebound {
         }
     }
 
-    public static void menu(){
+    public static void menu() {
         System.out.println("___________________________________________________________");
         System.out.println("Welcome to the contest for a new Bike ElectricPower6000");
         System.out.println("Select the option you want: ");
@@ -55,7 +55,7 @@ public class S12_Rebound {
         System.out.println("Enter the name and last name for the new participant:");
         List<String> listOfParticipants = new ArrayList<>();
         String newParticipant = ReadConsole.dataInputString();
-        listOfParticipants.add (newParticipant);
+        listOfParticipants.add(newParticipant);
         wf.writeAppend(directory, file, listOfParticipants);
     }
 

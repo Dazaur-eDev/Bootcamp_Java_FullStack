@@ -8,10 +8,11 @@ public class PaymentMethod {
     }
 
     public static PayInterface getPaymentMethod(TypeOfPayment typeOfPayment) {
-        return switch (typeOfPayment) {
-            case Cash -> new Cash();
-            case Credit -> new Credit();
-            case Debit -> new Debit();
-        };
+        switch (typeOfPayment) {
+            case Cash: return new Cash();
+            case Credit: return new Credit();
+            case Debit: return new Debit();
+        }
+        return null;
     }
 }
