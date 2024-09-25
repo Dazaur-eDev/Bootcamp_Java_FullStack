@@ -1,7 +1,5 @@
 package M4_Sesion12;
 
-import java.util.Scanner;
-
 public class S12_Main {
 
     public static void S12() {

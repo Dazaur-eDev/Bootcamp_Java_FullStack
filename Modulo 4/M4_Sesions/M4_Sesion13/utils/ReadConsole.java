@@ -1,6 +1,8 @@
-package M4_Sesion12.utils;
+package M4_Sesion13.utils;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -26,6 +28,25 @@ public class ReadConsole {
         return data;
     }
 
+    public static LocalDate dataInputLocalDate() {
+        LocalDate date = null;
+        boolean validInput = false;
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+        while (!validInput) {
+            try {
+                System.out.print("Insert a date (dd/MM/yyyy): ");
+                String input = sc.nextLine();
+                date = LocalDate.parse(input, formatter);
+                validInput = true;
+            } catch (DateTimeParseException e) {
+                System.out.println("No valid entry. Please use the format dd/MM/yyyy.");
+            }
+        }
+        return date;
+    }
+
     public static String dataInputString() {
         String data = "";
         try {
@@ -41,4 +62,7 @@ public class ReadConsole {
         sc.close();  // Cerrar el escaner para liberar recursos
         System.out.println("Object Scanner terminated.");
     }
+
+
+
 }
