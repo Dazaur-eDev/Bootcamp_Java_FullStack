@@ -1,4 +1,7 @@
 import M4_Sesion1.S1_Main;
+
+import M4_Sesion14.modules.ClubFullException;
+import M4_Sesion14.modules.DuplicateMemberException;
 import M4_Sesion2.S2_Main;
 import M4_Sesion3.S3_Main;
 import M4_Sesion4.S4_Main;
@@ -11,13 +14,14 @@ import M4_Sesion10.S10_Main;
 import M4_Sesion11.S11_Main;
 import M4_Sesion12.S12_Main;
 import M4_Sesion13.S13_Main;
+import M4_Sesion14.S14_Main;
 import M4_Sesion17.S17_Main;
 
 import java.util.Scanner;
 
 public class  Main {
     static int option;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClubFullException, DuplicateMemberException {
 
         int flag = 0; //Bandera de salida del while principal
         System.out.println("Bienvenido a los ejercicios del Bootcamp de Java");
@@ -68,6 +72,9 @@ public class  Main {
                     break;
                 case 13:
                     S13_Main.S13();
+                    break;
+                case 14:
+                    S14_Main.S14();
                     break;
                 case 15:
                     System.out.println("Realizado en proyecto con arquitectura Maven, se encuentra en carpeta: 'Modulo 4/M4_Sesion15_Rebound'.");
