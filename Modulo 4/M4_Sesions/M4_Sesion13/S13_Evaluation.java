@@ -1,14 +1,9 @@
 package M4_Sesion13;
 
-import M4_Sesion13.modules.Course;
-import M4_Sesion13.modules.Student;
 import M4_Sesion13.utils.ReadConsole;
 import M4_Sesion13.modules.Data;
 
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class S13_Evaluation {
     Data data = new Data();
