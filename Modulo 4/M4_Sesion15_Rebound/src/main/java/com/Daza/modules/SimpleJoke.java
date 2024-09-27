@@ -1,15 +1,12 @@
-package com.Daza.module;
+package com.Daza.modules;
 
-
-import java.util.List;
-
-public class TenJokes {
+public class SimpleJoke {
     private String type;
     private String setup;
     private String punchline;
     private int id;
 
-    public TenJokes() {
+    public SimpleJoke(){
     }
 
     public String getType() {
@@ -56,8 +53,8 @@ public class TenJokes {
 
     public String toJson() {
         return "\n" +
-                escapeJsonString(setup) + "\",\n" +
-                escapeJsonString(punchline);
+                  escapeJsonString(setup) + "\",\n" +
+                  escapeJsonString(punchline) + "\"\n";
     }
 
     private String escapeJsonString(String input) {

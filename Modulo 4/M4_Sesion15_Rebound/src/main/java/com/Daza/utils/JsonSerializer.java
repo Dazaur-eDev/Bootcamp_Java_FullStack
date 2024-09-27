@@ -1,6 +1,6 @@
 package com.Daza.utils;
 
-import com.Daza.module.TenJokes;
+import com.Daza.modules.TenJokes;
 
 import java.util.List;
 

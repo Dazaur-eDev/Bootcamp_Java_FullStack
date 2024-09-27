@@ -8,8 +8,8 @@ import jakarta.ws.rs.core.GenericType;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
-import com.Daza.module.SimpleJoke;
-import com.Daza.module.TenJokes;
+import com.Daza.modules.SimpleJoke;
+import com.Daza.modules.TenJokes;
 import com.Daza.utils.JsonSerializer;
 
 import java.util.List;

@@ -1,12 +1,12 @@
-package com.Daza.module;
+package com.Daza.modules;
 
-public class SimpleJoke {
+public class TenJokes {
     private String type;
     private String setup;
     private String punchline;
     private int id;
 
-    public SimpleJoke(){
+    public TenJokes() {
     }
 
     public String getType() {
@@ -53,8 +53,8 @@ public class SimpleJoke {
 
     public String toJson() {
         return "\n" +
-                  escapeJsonString(setup) + "\",\n" +
-                  escapeJsonString(punchline) + "\"\n";
+                escapeJsonString(setup) + "\",\n" +
+                escapeJsonString(punchline);
     }
 
     private String escapeJsonString(String input) {
