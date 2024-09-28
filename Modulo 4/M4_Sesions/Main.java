@@ -76,14 +76,11 @@ public class  Main {
                 case 14:
                     S14_Main.S14();
                     break;
-                case 15:
-                    System.out.println("Realizado en proyecto con arquitectura Maven, se encuentra en carpeta: 'Modulo 4/M4_Sesion15_Rebound'.");
+                case 15, 16, 18, 19:
+                    System.out.println("Realizado en proyecto con arquitectura Maven, https://github.com/Dazaur-eDev/Bootcamp_Java_FullStack/tree/main/Modulo%204");
                     break;
                 case 17:
                     S17_Main.S17();
-                    break;
-                case 18:
-                    System.out.println("Realizado en proyecto con arquitectura Maven, se encuentra en carpeta: 'Modulo 4/M4_Sesion18_Rebound'.");
                     break;
                 default:
                     System.out.println("Sesión no disponible");
