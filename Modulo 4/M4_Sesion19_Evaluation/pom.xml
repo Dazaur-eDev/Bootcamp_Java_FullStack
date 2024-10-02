@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.Daza</groupId>
-  <artifactId>M4_Sesion19_Rebound</artifactId>
+  <artifactId>M4_Sesion19_Evaluation</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>M4_Sesion19_Rebound</name>
+  <name>M4_Sesion19_Evaluation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
