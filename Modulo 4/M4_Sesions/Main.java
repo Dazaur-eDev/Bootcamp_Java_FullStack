@@ -76,10 +76,14 @@ public class  Main {
                 case 14:
                     S14_Main.S14();
                     break;
-                case 15, 16, 18, 19:
+                case 15, 18, 19:
                     System.out.println("Realizado en proyecto con arquitectura Maven, https://github.com/Dazaur-eDev/Bootcamp_Java_FullStack/tree/main/Modulo%204");
                     break;
+                case 16:
+                    System.out.println("Diagramas en pdf en https://github.com/Dazaur-eDev/Bootcamp_Java_FullStack/tree/main/Modulo%204/M4_Sesions/M4_Sesion16");
+                    break;
                 case 17:
+                    System.out.println("El ejercicio Rebound se encuentra en ejecución y el pdf de la Evaluation en https://github.com/Dazaur-eDev/Bootcamp_Java_FullStack/tree/main/Modulo%204/M4_Sesions/M4_Sesion17");
                     S17_Main.S17();
                     break;
                 default:
