@@ -1,0 +1,17 @@
+Registro de estudiantes Liceo Latinoamericano
+=====================================
+Registro Número 1
+Alumno : 17656624-8 - Patricio Daza
+    MATEMATICAS : [6.5, 4.0, 7.0] Promedio : 5,83
+    LENGUAJE : [1.5, 2.0, 2.0] Promedio : 1,83
+Promedio General : 3,83
+=====================================
+Registro Número 2
+Alumno : 17656624-9 - Daniel Urqueta
+ Alumno sin materias asignadas
+=====================================
+Registro Número 3
+Alumno : 1 - 1 1
+    LENGUAJE : [] Promedio : 0,00
+    HISTORIA : [1.0] Promedio : 1,00
+Promedio General : 0,50
