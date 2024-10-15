@@ -36,7 +36,7 @@ public class PassServlet extends HttpServlet {
                 request.setAttribute("tokenPass", true);
                 request.setAttribute("contadorMayusculas", contadorMayusculas);
                 request.setAttribute("contadorMinisculas", contadorMinisculas);
-                request.setAttribute("contadorNumeros", contadorNumeros);
+                request.setAttribute("contadorNumeros", contadorNumeros);giot add .
             } else {
                 request.setAttribute("contadorMayusculas", contadorMayusculas);
                 request.setAttribute("contadorMinisculas", contadorMinisculas);
