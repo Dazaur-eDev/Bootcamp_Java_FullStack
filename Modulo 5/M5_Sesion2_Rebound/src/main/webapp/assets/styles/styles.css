@@ -1,0 +1,25 @@
+body {
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+h2 {
+    color: #08261e;;
+}
+label {
+    color: black;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+.btn-custom {
+    background-color: #0a2f26;
+    border-color: rgba(54, 204, 38, 0.53);
+}
+.btn-custom:hover {
+    background-color: #b3daae;
+    border-color: #91cab9;
+}
