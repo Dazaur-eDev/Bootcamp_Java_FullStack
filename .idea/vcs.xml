@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Modulo 5/M5_Sesion2_JSP_Hotel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Modulo 5/M5_Sesion5_Evaluation" vcs="Git" />
   </component>
 </project>
