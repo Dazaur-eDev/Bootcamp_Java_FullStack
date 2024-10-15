@@ -8,10 +8,10 @@ Promedio General : 3,83
 =====================================
 Registro Número 2
 Alumno : 17656624-9 - Daniel Urqueta
- Alumno sin materias asignadas
+    MATEMATICAS : [] Promedio : 0,00
+Promedio General : 0,00
 =====================================
 Registro Número 3
-Alumno : 1 - 1 1
-    LENGUAJE : [] Promedio : 0,00
-    HISTORIA : [1.0] Promedio : 1,00
-Promedio General : 0,50
+Alumno : 1 - asd asd
+    LENGUAJE : [2.0] Promedio : 2,00
+Promedio General : 2,00

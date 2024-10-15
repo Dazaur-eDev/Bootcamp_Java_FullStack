@@ -15,7 +15,7 @@
 </nav>
 
 <body>
-<table class="table">
+<table class="table" class="ms-3">
     <thead>
     <tr>
         <th scope="col">Nombre</th>
@@ -26,11 +26,10 @@
     </thead>
     <tbody>
     <tr>
-        <td>${nombre}</td>
-        <td><%=request.getAttribute("email") %>
-        </td>
-        <td>${dias}</td>
-        <td>Habitacion</td>
+        <td><%= request.getAttribute("nombre") %></td>
+        <td><%= request.getAttribute("email") %></td>
+        <td><%= request.getAttribute("dias") %></td>
+        <td><%= request.getAttribute("idHb") %></td>
     </tr>
     </tbody>
 </table>

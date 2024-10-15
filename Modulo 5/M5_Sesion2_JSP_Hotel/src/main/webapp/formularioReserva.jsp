@@ -15,7 +15,7 @@
 
 <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Formulario de Reserva</span>
+        <span class="navbar-brand mb-0 h1">Reserva habitación</span>
     </div>
 </nav>
 
@@ -31,7 +31,10 @@
             <p class="card-text">Precio: $ <%=habitacion.getPrecio()%></p>
             <p class="card-text">Piezas: $ <%=habitacion.getPiezas()%></p>
             <p class="card-text">Metraje: $ <%=habitacion.getMetraje()%></p>
-            <a href="/formHabServlet" class="btn btn-primary">Reserva YA!</a>
+            <form action="formHabServlet" method="post">
+                <input type="hidden" name="idHb" value="<%=habitacion.getId()%>">
+                <button type="submit" class="btn btn-primary">Reserva YA!</button>
+            </form>
         </div>
     </div>
     <% } %>
