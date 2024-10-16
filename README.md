@@ -4,9 +4,9 @@
 
 Aquí estoy iniciando el camino para convertirme en un desarrollador full stack Java.
 
-Estoy recien adquiriendo conocimientos y herramientas asociadas a este mundo de la
+Estoy adquiriendo conocimientos y herramientas asociadas a este mundo de la
 programación. Tengo conocimientos básicos esenciales y uno que otro proyecto, sin embargo, no
-cuentan con las mejores practicas de programación.
+cuentan con las mejores prácticas de programación.
 
 Espero con el tiempo y práctica lograr un dominio mayor y desenvolverme en este mercado
 que avanza cada día con más y nuevas herramientas.
@@ -14,20 +14,29 @@ que avanza cada día con más y nuevas herramientas.
 Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para buscar soluciones.
 
 ## Aprendizajes durante el bootcamp
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="49"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="36"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="40"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" width="50"/> 
+<p>
+  <img src="./assets/icons/HTML5.png" alt="HTML" width="45"/>
+  <img src="./assets/icons/CSS3.png" alt="CSS" width="45"/> 
+  <img src="./assets/icons/JavaScript.png" alt="JavaScript" width="45"/> 
+  <img src="./assets/icons/Bootstrap.png" alt="Bootstrap" width="45"/> 
   
-  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="30"/> 
+  <img src="./assets/icons/Java.png" alt="Java" width="45"/> 
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Apache_Tomcat_logo.svg/595px-Apache_Tomcat_logo.svg.png?20230726204155" alt="TomCat" width="55"/> 
+  <img src="./assets/icons/Apache%20Tomcat.png" alt="TomCat" width="45"/> 
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" width="65"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" width="35"/> 
-  <img src="https://nehajain216.github.io/img/jdbc.png" width="68"/> 
-  <img src="https://hibernate.org/images/hibernate-logo.svg" alt="Hibernate" width="110"/> 
+  <img src="./assets/icons/Sql_data_base_with_logo.png" alt="SQL" width="80"/> 
+  <img src="./assets/icons/PostgresSQL.png" alt="PostgreSQL" width="45"/> 
+  <img src="./assets/icons/jdbc.png" alt="JDBC" width="80"/> 
+  <img src="./assets/icons/Hibernate.png" alt="Hibernate" width="45"/> 
+
+  <img src="./assets/icons/Git.png" alt="Git" width="45"/>
+  <img src="./assets/icons/GitHub.png" alt="GitHub" width="45"/> 
+
+  <img src="./assets/icons/JUnit.png" alt="JUnit5" width="45"/> 
+  <img src="./assets/icons/mockito.png" alt="Mockito" width="100"/> 
+
+  <img src="./assets/icons/IntelliJ%20IDEA.png" alt="Intellij IDEA" width="45"/>
+  <img src="./assets/icons/Visual%20Studio%20Code%20(VS%20Code).png" alt="Vs Code" width="45"/>
 
 
 ### 1. Frontend Development:
@@ -51,13 +60,25 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
 - **EJB (Enterprise JavaBeans)**: Componente del backend de Java para desarrollo de aplicaciones empresariales
   distribuidas.
 
-### 4. Database & ORM:
+### 4. Database & ORM (Object relational Mapping):
 
 - **SQL**: Lenguaje estándar para consultar y manipular bases de datos.
 - **PostgreSQL**: Sistema de gestión de bases de datos relacional que usa SQL.
 - **JDBC (Java Database Connectivity)**: API de Java para conectar aplicaciones con bases de datos.
 - **Hibernate**: Framework ORM (Mapeo Objeto-Relacional) para gestionar bases de datos en Java de manera más eficiente.
 
+### 4. Version Control:
 
+- **Git**: Sistema de control de versiones distribuido que permite el seguimiento de cambios en el código y facilita la colaboración entre desarrolladores. 
+- **GitHub**: Plataforma basada en Git para almacenar repositorios de código, colaborar en proyectos, y gestionar versiones a través de interfaces gráficas y herramientas de automatización como CI/CD.
 
+### 5. Testing:
 
+- **JUnit**: Framework de pruebas unitarias para aplicaciones Java, utilizado para garantizar la funcionalidad correcta de las clases y métodos.
+- **Mockito**: Framework de simulación para pruebas unitarias, que permite crear objetos simulados (mock) y verificar el comportamiento de dependencias en aplicaciones Java.
+- **Postman**: Herramienta para realizar pruebas de API's, permitiendo enviar solicitudes HTTP, validar respuestas, y automatizar pruebas para garantizar el correcto funcionamiento de los servicios web.
+
+### 6. Development Tools:
+   
+- **IntelliJ IDEA**: Entorno de desarrollo integrado (IDE) para Java y otros lenguajes, que ofrece herramientas avanzadas para la escritura, depuración, y análisis de código, además de integración con sistemas de control de versiones y otros frameworks como Spring, Hibernate, y Maven.
+- **VS Code**: Editor de código ligero, pero extensible, utilizado principalmente para desarrollo web y otros lenguajes como Python o JavaScript, con soporte para múltiples plugins.
