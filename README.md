@@ -30,7 +30,7 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
   <img src="./assets/icons/Hibernate.png" alt="Hibernate" width="45"/> 
 
   <img src="./assets/icons/Git.png" alt="Git" width="45"/>
-  <img src="./assets/icons/GitHub.png" alt="GitHub" width="45"/> 
+  <img src="./assets/icons/github%20(1).png" alt="GitHub" width="50"/> 
 
   <img src="./assets/icons/JUnit.png" alt="JUnit5" width="45"/> 
   <img src="./assets/icons/mockito.png" alt="Mockito" width="100"/> 
