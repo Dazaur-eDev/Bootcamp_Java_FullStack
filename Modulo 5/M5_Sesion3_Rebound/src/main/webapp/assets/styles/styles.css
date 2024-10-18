@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('/assets/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-color: #333333;
+}
+
+.btn-dark {
+    background-color: #333333;
+    border-color: #444444;
+}
+
+.btn-dark:hover {
+    background-color: #444444;
+    border-color: #555555;
+}
+
+.card-title, .form-label {
+    color: #ffd700; /* Amarillo dorado para títulos y etiquetas */
+}
+
+.form-control::placeholder {
+    color: #ffd700; /* Amarillo dorado para los placeholders */
+    opacity: 0.5;
+}
+
+.btn-dark {
+    color: #ffd700; /* Amarillo dorado para el texto del botón */
+    font-weight: bold;
+}
+footer {
+    padding: 1rem 0;
+}
