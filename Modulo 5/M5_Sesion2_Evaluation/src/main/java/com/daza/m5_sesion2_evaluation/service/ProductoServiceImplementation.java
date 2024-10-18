@@ -8,7 +8,7 @@ import com.daza.m5_sesion2_evaluation.repository.ProductoRepositoryImplementatio
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ProductoServiceImplementation implements ProductoService{
+public class ProductoServiceImplementation implements ProductoService {
 
     private final ProductoRepository productoRepository;
 
@@ -17,14 +17,18 @@ public class ProductoServiceImplementation implements ProductoService{
     }
 
     @Override
-    public List<ProductoResponseDTO> listarProductos() {
+    public List<ProductoResponseDTO> listarProductosDTO() {
+
         List<Producto> productos = productoRepository.listarProductos();
         if (productos.isEmpty()) {
-            throw new RuntimeException("No se encontraron alumnos");
+            throw new RuntimeException("No se encontraron productos");
         }
-        return productos.stream()
-                .map(this::convertToResponseDTO)
-                .collect(Collectors.toList());
+        List<ProductoResponseDTO> productosMap =
+                productos.stream()
+                        .map(this::convertToResponseDTO)
+                        .collect(Collectors.toList());
+        return productosMap;
+
     }
 
     private ProductoResponseDTO convertToResponseDTO(Producto producto) {

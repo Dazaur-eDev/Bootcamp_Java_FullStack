@@ -9,6 +9,7 @@ import java.util.List;
 public class ProductoRepositoryImplementation implements ProductoRepository{
     @Override
     public List<Producto> listarProductos() {
+
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             return session.createQuery("from Producto", Producto.class).list();
         }

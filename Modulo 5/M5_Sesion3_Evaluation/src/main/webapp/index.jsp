@@ -17,7 +17,7 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Inicio Sesión</h2>
-                    <form action="./SesionIniciada.jsp" method="post">
+                    <form action="./loginServlet" method="post">
                         <div class="mb-3">
                             <label for="usuario" class="form-label">Usuario</label>
                             <input type="text" class="form-control" id="usuario" name="usuario" required>

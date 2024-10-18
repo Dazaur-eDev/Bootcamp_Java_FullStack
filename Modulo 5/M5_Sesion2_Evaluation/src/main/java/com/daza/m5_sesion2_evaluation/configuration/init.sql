@@ -1,3 +1,4 @@
+CREATE DATABASE modulo5;
 CREATE TABLE productos (
    id SERIAL PRIMARY KEY,
    nombre VARCHAR(100) NOT NULL,

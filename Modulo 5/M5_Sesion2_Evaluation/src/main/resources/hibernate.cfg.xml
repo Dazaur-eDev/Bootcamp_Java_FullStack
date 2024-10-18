@@ -11,7 +11,7 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property> <!-- DIALECTO UTILIZADO -->
 
         <!-- Echo all executed SQL to stdout -->
-        <property name="show_sql">true</property> <!-- PROPIEDAD QUE NOS MUESTRA LAS CONSULTAS SQL EN LA CONSOLA -->
+        <property name="show_sql">false</property> <!-- PROPIEDAD QUE NOS MUESTRA LAS CONSULTAS SQL EN LA CONSOLA -->
 
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">update</property> <!-- TIPO DE GENERACION DE TABLAS EN LA BASE DE DATOS -->

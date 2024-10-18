@@ -7,12 +7,11 @@ public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "descripcion")
     private String descripcion;
-    @Column(name = "precioUnitario")
+    @Column(name = "preciounitario")
     private int precioUnitario;
 
 
@@ -24,6 +23,14 @@ public class Producto {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precioUnitario = precioUnitario;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -48,14 +55,6 @@ public class Producto {
 
     public void setPrecioUnitario(int precioUnitario) {
         this.precioUnitario = precioUnitario;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     @Override

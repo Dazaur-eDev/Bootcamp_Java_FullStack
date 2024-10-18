@@ -14,29 +14,32 @@ que avanza cada día con más y nuevas herramientas.
 Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para buscar soluciones.
 
 ## Aprendizajes durante el bootcamp
+
 <p>
   <img src="./assets/icons/HTML5.png" alt="HTML" width="45"/>
   <img src="./assets/icons/CSS3.png" alt="CSS" width="45"/> 
   <img src="./assets/icons/JavaScript.png" alt="JavaScript" width="45"/> 
   <img src="./assets/icons/Bootstrap.png" alt="Bootstrap" width="45"/> 
-  
   <img src="./assets/icons/Java.png" alt="Java" width="45"/> 
-
+</p>
+<p>
   <img src="./assets/icons/Apache%20Tomcat.png" alt="TomCat" width="45"/> 
-
   <img src="./assets/icons/Sql_data_base_with_logo.png" alt="SQL" width="80"/> 
   <img src="./assets/icons/PostgresSQL.png" alt="PostgreSQL" width="45"/> 
   <img src="./assets/icons/jdbc.png" alt="JDBC" width="80"/> 
   <img src="./assets/icons/Hibernate.png" alt="Hibernate" width="45"/> 
-
+</p>
+<p>
   <img src="./assets/icons/Git.png" alt="Git" width="45"/>
   <img src="./assets/icons/github%20(1).png" alt="GitHub" width="50"/> 
-
+<p>
   <img src="./assets/icons/JUnit.png" alt="JUnit5" width="45"/> 
   <img src="./assets/icons/mockito.png" alt="Mockito" width="100"/> 
-
-  <img src="./assets/icons/IntelliJ%20IDEA.png" alt="Intellij IDEA" width="45"/>
+</p>
+<p>
+  <img src="./assets/icons/IntelliJ%20IDEA.png" alt="Intellij IDEA" width="45"/> 
   <img src="./assets/icons/Visual%20Studio%20Code%20(VS%20Code).png" alt="Vs Code" width="45"/>
+</p>
 
 
 ### 1. Frontend Development:
