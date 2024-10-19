@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.daza.m5_sesion2_evaluation.dto.ProductoResponseDTO" %>
-<%@ page import="com.daza.m5_sesion2_evaluation.model.Producto" %>
 <!DOCTYPE html>
 <html lang="es">
 <head>

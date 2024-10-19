@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d02be2-4663-4dbc-b034-b44bce2854d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Daza/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Daza/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Daza/module/SimpleJoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Daza/modules/SimpleJoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Daza/module/TenJokes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Daza/modules/TenJokes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Daza/utils/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Daza/utils/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modulo 5/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modulo 5/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modulo 5/untitled/src/main/java/com/Daza/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modulo 5/untitled/src/test/java/com/Daza/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo 5/M5_Sesion3_Evaluation/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo 5/M5_Sesion3_Evaluation/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev__daza",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +67,7 @@
       <updated>1727356049860</updated>
       <workItem from="1727356051103" duration="174000" />
       <workItem from="1727356799453" duration="2390000" />
+      <workItem from="1729275418394" duration="771000" />
     </task>
     <servers />
   </component>
