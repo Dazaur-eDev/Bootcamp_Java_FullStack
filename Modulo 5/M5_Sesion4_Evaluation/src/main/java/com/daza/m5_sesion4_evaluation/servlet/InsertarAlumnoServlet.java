@@ -3,7 +3,6 @@ package com.daza.m5_sesion4_evaluation.servlet;
 import com.daza.m5_sesion4_evaluation.model.Alumno;
 import com.daza.m5_sesion4_evaluation.service.AlumnoService;
 import com.daza.m5_sesion4_evaluation.service.AlumnoServiceImplement;
-import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;

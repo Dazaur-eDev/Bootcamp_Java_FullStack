@@ -60,8 +60,7 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
 - **Apache Tomcat**: Servidor web y contenedor de Servlets y JSP, utilizado para ejecutar aplicaciones web basadas en Java.
 - **Servlets**: Componente de Java que maneja peticiones HTTP en aplicaciones web.
 - **JSP (JavaServer Pages)**: Tecnología que permite crear páginas web dinámicas usando Java en el backend.
-- **EJB (Enterprise JavaBeans)**: Componente del backend de Java para desarrollo de aplicaciones empresariales
-  distribuidas.
+
 
 ### 4. Database & ORM (Object relational Mapping):
 
