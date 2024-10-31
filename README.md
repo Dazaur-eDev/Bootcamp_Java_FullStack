@@ -21,6 +21,7 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
   <img src="./assets/icons/JavaScript.png" alt="JavaScript" width="45"/> 
   <img src="./assets/icons/Bootstrap.png" alt="Bootstrap" width="45"/> 
   <img src="./assets/icons/Java.png" alt="Java" width="45"/> 
+
 </p>
 <p>
   <img src="./assets/icons/Apache%20Tomcat.png" alt="TomCat" width="45"/> 
@@ -34,53 +35,62 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
   <img src="./assets/icons/github%20(1).png" alt="GitHub" width="50"/> 
 <p>
   <img src="./assets/icons/JUnit.png" alt="JUnit5" width="45"/> 
-  <img src="./assets/icons/mockito.png" alt="Mockito" width="100"/> 
+  <img src="./assets/icons/mockito.png" alt="Mockito" width="105"/> 
+  <img src="./assets/icons/Postman.png" alt="Postman" width="45"/>
 </p>
 <p>
   <img src="./assets/icons/IntelliJ%20IDEA.png" alt="Intellij IDEA" width="45"/> 
   <img src="./assets/icons/Visual%20Studio%20Code%20(VS%20Code).png" alt="Vs Code" width="45"/>
 </p>
-
-
-### 1. Frontend Development:
+<p>
+  <img src="./assets/icons/Spring.png" alt="Spring" width="45"/> 
+  <img src="./assets/icons/thymeleaf.png" alt="Thymeleaf" width="45"/> 
+</p>
+### 1. **Frontend Development**
 
 - **HTML**: Estructura del contenido web.
 - **CSS**: Estilo y diseño de las páginas web.
 - **JavaScript**: Lenguaje de programación para interactividad y dinámica en el frontend.
 - **Bootstrap**: Framework de CSS (y JavaScript) para diseño responsivo y rápido desarrollo de interfaces web.
 
-### 2. Backend Development:
+### 2. **Backend Development**
 
-- **Java**: Lenguaje de programación usado en el backend para desarrollar aplicaciones robustas.
-- **Poo (Programación Orientada a Objetos)**: Paradigma de programación fundamental en Java y otros lenguajes para
-  modelar datos y comportamientos a través de objetos.
+  - **Java**: Lenguaje de programación usado en el backend para desarrollar aplicaciones robustas.
+  - **POO (Programación Orientada a Objetos)**: Paradigma fundamental para modelar datos y comportamientos mediante objetos.
+  - **Spring Boot**: Framework para el desarrollo rápido de aplicaciones Java basadas en Spring.
 
-### 3. Web Technologies (Java-based):
+### 3. **Tecnologías Web en Java**
 
-- **Apache Tomcat**: Servidor web y contenedor de Servlets y JSP, utilizado para ejecutar aplicaciones web basadas en Java.
-- **Servlets**: Componente de Java que maneja peticiones HTTP en aplicaciones web.
-- **JSP (JavaServer Pages)**: Tecnología que permite crear páginas web dinámicas usando Java en el backend.
+  - **Apache Tomcat**: Servidor web y contenedor de Servlets y JSP, para ejecutar aplicaciones web en Java.
+  - **Servlets**: Componente Java que maneja peticiones HTTP en aplicaciones web.
+  - **JSP (JavaServer Pages)**: Tecnología para crear páginas web dinámicas usando Java en el backend.
 
+### 4. **Persistencia de Datos**
 
-### 4. Database & ORM (Object relational Mapping):
+  - **SQL**: Lenguaje estándar para consultar y manipular bases de datos.
+  - **PostgreSQL**: Sistema de gestión de bases de datos relacional que usa SQL.
+  - **JDBC (Java Database Connectivity)**: API de Java para conectar aplicaciones con bases de datos.
+  - **Hibernate**: Framework ORM para la gestión eficiente de bases de datos en Java.
+  - **Spring Data JPA**: Extensión de Spring para acceso y manipulación de datos en aplicaciones Java.
 
-- **SQL**: Lenguaje estándar para consultar y manipular bases de datos.
-- **PostgreSQL**: Sistema de gestión de bases de datos relacional que usa SQL.
-- **JDBC (Java Database Connectivity)**: API de Java para conectar aplicaciones con bases de datos.
-- **Hibernate**: Framework ORM (Mapeo Objeto-Relacional) para gestionar bases de datos en Java de manera más eficiente.
+### 5. **Control de Versiones**
 
-### 4. Version Control:
+  - **Git**: Sistema de control de versiones distribuido.
+  - **GitHub**: Plataforma basada en Git para repositorios de código y colaboración en proyectos.
 
-- **Git**: Sistema de control de versiones distribuido que permite el seguimiento de cambios en el código y facilita la colaboración entre desarrolladores. 
-- **GitHub**: Plataforma basada en Git para almacenar repositorios de código, colaborar en proyectos, y gestionar versiones a través de interfaces gráficas y herramientas de automatización como CI/CD.
+### 6. **Testing**
 
-### 5. Testing:
+  - **JUnit**: Framework de pruebas unitarias para aplicaciones Java.
+  - **Mockito**: Framework de simulación para pruebas unitarias en Java.
+  - **Postman**: Herramienta para pruebas de APIs, facilitando la automatización y verificación de respuestas HTTP.
 
-- **JUnit**: Framework de pruebas unitarias para aplicaciones Java, utilizado para garantizar la funcionalidad correcta de las clases y métodos.
-- **Mockito**: Framework de simulación para pruebas unitarias, que permite crear objetos simulados (mock) y verificar el comportamiento de dependencias en aplicaciones Java.
-- **Postman**: Herramienta para realizar pruebas de API's, permitiendo enviar solicitudes HTTP, validar respuestas, y automatizar pruebas para garantizar el correcto funcionamiento de los servicios web.
+### 7. **Herramientas de Desarrollo**
 
-### 6. Development Tools:
-   
-- **IntelliJ IDEA**: Entorno de desarrollo integrado (IDE) para Java y otros lenguajes, que ofrece herramientas avanzadas para la escritura, depuración, y análisis de código, además de integración con sistemas de control de versiones y otros frameworks como Spring, Hibernate, y Maven.
-- **VS Code**: Editor de código ligero, pero extensible, utilizado principalmente para desarrollo web y otros lenguajes como Python o JavaScript, con soporte para múltiples plugins.
+  - **IntelliJ IDEA**: IDE avanzado para Java y otros lenguajes, compatible con sistemas de control de versiones y frameworks.
+  - **VS Code**: Editor de código ligero y extensible, ideal para desarrollo web y de múltiples lenguajes.
+
+### 8. **Arquitectura de Aplicaciones Java**
+
+  - **API REST**: Arquitectura de servicios web, facilitando la comunicación entre aplicaciones a través de HTTP.
+  - **Modelo MVC (Model-View-Controller)**: Patrón de diseño que separa la lógica de negocio, presentación y control, útil en aplicaciones web.
+  - **Thymeleaf**: Motor de plantillas para renderizar HTML en aplicaciones Java, ideal para el desarrollo de vistas con Spring MVC.
