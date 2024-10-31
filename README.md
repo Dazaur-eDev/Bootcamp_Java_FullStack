@@ -43,7 +43,7 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
   <img src="./assets/icons/Visual%20Studio%20Code%20(VS%20Code).png" alt="Vs Code" width="45"/>
 </p>
 <p>
-  <img src="./assets/icons/Spring.png" alt="Spring" width="45"/> 
+  <img src="./assets/icons/Spring.pnggit " alt="Spring" width="45"/> 
   <img src="./assets/icons/thymeleaf.png" alt="Thymeleaf" width="45"/> 
 </p>
 ### 1. **Frontend Development**
