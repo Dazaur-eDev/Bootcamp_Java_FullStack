@@ -46,6 +46,7 @@ Dispongo de buena voluntad para ayudar con lo poco que sé y perseverancia para 
   <img src="./assets/icons/Spring.png" alt="Spring" width="45"/> 
   <img src="./assets/icons/thymeleaf.png" alt="Thymeleaf" width="45"/> 
 </p>
+
 ### 1. **Frontend Development**
 
 - **HTML**: Estructura del contenido web.
